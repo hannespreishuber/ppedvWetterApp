@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="ppedvWetterApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ppedvWetterApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    mc:Ignorable="d">
+
+    <Grid Background="CornflowerBlue">
+        <StackPanel>
+            <TextBlock Height="30" Text="{x:Bind Wetter.WetterListe.Count,Mode=OneWay}" Width="100"></TextBlock>
+
+            <Controls:RotatorTile Height="400"
+                               Direction="Up"
+                               RotationDelay="0:0:5"
+                               ExtraRandomDuration="0:0:0"
+                              ItemsSource="{x:Bind Wetter.WetterListe, Mode=OneWay}" 
+                              HorizontalAlignment="Stretch"
+                               VerticalAlignment="Stretch" >
+                <Controls:RotatorTile.ItemTemplate>
+                    <DataTemplate x:DataType="local:Rootobject">
+                        <StackPanel>
+                            <TextBlock Text="{x:Bind city.name, Mode=OneWay}" FontSize="28" Foreground="Yellow"/>
+                            <Grid VerticalAlignment="Stretch">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100*"/>
+                                    <ColumnDefinition Width="100*"/>
+                                    <ColumnDefinition Width="100*"/>
+                                    <ColumnDefinition Width="100*"/>
+                                    <ColumnDefinition Width="100*"/>
+                                </Grid.ColumnDefinitions>
+                                <local:TagesKachel Margin="20,0,20,0" Grid.Column="0" Wetter="{x:Bind wlist[0],Mode=OneWay}" />
+                                <local:TagesKachel Margin="20,0,20,0" Grid.Column="1" Wetter="{x:Bind wlist[1],Mode=OneWay}" />
+                                <local:TagesKachel Margin="20,0,20,0" Grid.Column="2" Wetter="{x:Bind wlist[2],Mode=OneWay}" />
+                                <local:TagesKachel Margin="20,0,20,0" Grid.Column="3" Wetter="{x:Bind wlist[3],Mode=OneWay}" />
+                                <local:TagesKachel Margin="20,0,20,0" Grid.Column="4" Wetter="{x:Bind wlist[4],Mode=OneWay}" />
+                            </Grid>
+                        </StackPanel>
+                    </DataTemplate>
+                </Controls:RotatorTile.ItemTemplate>
+            </Controls:RotatorTile>
+        </StackPanel>
+    </Grid>
+</Page>

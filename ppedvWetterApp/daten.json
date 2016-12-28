@@ -1,0 +1,188 @@
+﻿{
+  "city": {
+    "id": 2941279,
+    "name": "Burghausen",
+    "coord": {
+      "lon": 12.83333,
+      "lat": 48.166672
+    },
+    "country": "DE",
+    "population": 0
+  },
+  "cod": "200",
+  "message": 0.0349,
+  "cnt": 7,
+  "list": [
+    {
+      "dt": 1482922800,
+      "temp": {
+        "day": 3.6,
+        "min": 0.42,
+        "max": 4,
+        "night": 0.42,
+        "eve": 2.18,
+        "morn": 4
+      },
+      "pressure": 985.78,
+      "humidity": 97,
+      "weather": [
+        {
+          "id": 601,
+          "main": "Snow",
+          "description": "snow",
+          "icon": "13d"
+        }
+      ],
+      "speed": 6.01,
+      "deg": 273,
+      "clouds": 92,
+      "snow": 7.61
+    },
+    {
+      "dt": 1483009200,
+      "temp": {
+        "day": 1.47,
+        "min": -8.48,
+        "max": 1.47,
+        "night": -8.48,
+        "eve": -6.8,
+        "morn": -4.17
+      },
+      "pressure": 984.31,
+      "humidity": 93,
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01d"
+        }
+      ],
+      "speed": 1.76,
+      "deg": 95,
+      "clouds": 0,
+      "snow": 0.01
+    },
+    {
+      "dt": 1483095600,
+      "temp": {
+        "day": 2.6,
+        "min": -10.24,
+        "max": 2.6,
+        "night": -10.24,
+        "eve": -7.7,
+        "morn": -9.3
+      },
+      "pressure": 981.38,
+      "humidity": 75,
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01d"
+        }
+      ],
+      "speed": 1.26,
+      "deg": 218,
+      "clouds": 0
+    },
+    {
+      "dt": 1483182000,
+      "temp": {
+        "day": 4.82,
+        "min": -7.45,
+        "max": 4.82,
+        "night": -6.92,
+        "eve": -4.55,
+        "morn": -7.45
+      },
+      "pressure": 952.4,
+      "humidity": 0,
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01d"
+        }
+      ],
+      "speed": 1.29,
+      "deg": 201,
+      "clouds": 0
+    },
+    {
+      "dt": 1483268400,
+      "temp": {
+        "day": 3.16,
+        "min": -8.36,
+        "max": 3.16,
+        "night": -6.61,
+        "eve": -3.08,
+        "morn": -8.36
+      },
+      "pressure": 944.11,
+      "humidity": 0,
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01d"
+        }
+      ],
+      "speed": 1.18,
+      "deg": 192,
+      "clouds": 0
+    },
+    {
+      "dt": 1483354800,
+      "temp": {
+        "day": -0.86,
+        "min": -7.89,
+        "max": -0.86,
+        "night": -5.86,
+        "eve": -5.25,
+        "morn": -7.89
+      },
+      "pressure": 937.52,
+      "humidity": 0,
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01d"
+        }
+      ],
+      "speed": 1.13,
+      "deg": 174,
+      "clouds": 4
+    },
+    {
+      "dt": 1483441200,
+      "temp": {
+        "day": -0.78,
+        "min": -5.93,
+        "max": -0.78,
+        "night": -5.93,
+        "eve": -2.89,
+        "morn": -5.45
+      },
+      "pressure": 943.91,
+      "humidity": 0,
+      "weather": [
+        {
+          "id": 601,
+          "main": "Snow",
+          "description": "snow",
+          "icon": "13d"
+        }
+      ],
+      "speed": 2.21,
+      "deg": 282,
+      "clouds": 79,
+      "snow": 1.77
+    }
+  ]
+}
