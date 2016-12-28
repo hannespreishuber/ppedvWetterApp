@@ -15,7 +15,7 @@ Public Class WetterVM
 
         For Each Ort In orte
             Dim wetter As Rootobject
-            Dim json = Await client.GetStringAsync($"http://api.openweathermap.org/data/2.5/forecast/daily?q={Ort}&units=metric&appid=b72e486c65374cfd2e73de0c78332d8f")
+            Dim json = Await client.GetStringAsync($"http://api.openweathermap.org/data/2.5/forecast/daily?q={Ort}&units=metric&appid=TODOYOurIDe0c78332d8f")
             wetter = JsonConvert.DeserializeObject(Of Rootobject)(json)
             wetter.city.name = Ort 'Fix für Wetterstationsname 
             WetterListe.Add(wetter)
